@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --text-color: #000000;
+  --second-color: #5271ff;
+  --bg-color: #ffffff;
+}
+
+.darkmode {
+  --text-color: #ffffff;
+  --second-color: #001472;
+  --bg-color: #000000;
+}
+
+body {
+  height: 100vh;
+  font-family: "Montserrat", sans-serif;
+  overflow-y: hidden;
+  color: var(--text-color);
+  transition: all 0.1s ease-in-out;
+}
+
+/* MAIN APP STYLE */
+#main-app {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+}

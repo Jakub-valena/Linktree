@@ -1,0 +1,26 @@
+/* ABOUT SECTION STYLES */
+#about-section {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: var(--second-color);
+}
+
+#about {
+  height: 50%;
+  font-size: 30px;
+  font-weight: 300;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#about h1,
+#about h3 {
+  font-weight: 300;
+}

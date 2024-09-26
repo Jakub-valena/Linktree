@@ -1,0 +1,28 @@
+.link-btn {
+  width: 100%;
+  height: 15%;
+  background-color: var(--second-color);
+  border-radius: 30px;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.link {
+  display: flex;
+  height: 100%;
+  justify-content: start;
+  align-items: center;
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+.logo {
+  font-size: 60px;
+  margin-left: 50px;
+  color: #ffffff;
+}
+
+.name {
+  margin-left: 20%;
+  font-size: 80px;
+}
